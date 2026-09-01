@@ -1,0 +1,54 @@
+.header {
+    height: 68px;
+    width: 100%;
+
+    background:linear-gradient(90deg, rgba(18, 4, 39, 1) 30%, rgba(96, 24, 150, 1) 70%, rgba(150, 83, 201, 1) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 8.5%;
+
+    position: relative;
+    z-index: 10;
+}
+.logo-area {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+
+    gap: 8px;
+}
+
+.logo-area img {
+    width: 55px;
+    height: 61px;
+
+    object-fit: contain;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    width: 65px;
+}
+
+.menu a {
+    color: #d8d3dc;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.25s;
+}
+#menu1{
+    margin-left: 900px;
+}
+.menu a:hover {
+    color: #b653e5;
+}
+body{
+    
+}
